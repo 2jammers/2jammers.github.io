@@ -33,34 +33,42 @@ button {
     outline: none;
     border: none;
     border-radius: 0.35em;
-    
-    color: rgb(25, 25, 25);
-    
+
     padding-top: 0.5em;
     padding-bottom:0.5em;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
+    padding-right: 0.75em;
+    padding-left: 0.75em;
     
     cursor: pointer;
 }
 
-.weight2 {
+button.light { 
+    color: rgb(25, 25, 25);
+    background-color: rgb(240, 240, 240);
+}
+
+button.dark {
+    color: rgb(240, 240, 240);
+    background-color: rgb(47, 47, 47);
+}
+
+.bold {
 	font-weight: bold;
 }
 
-.weight0 {
+.light {
     font-weight: lighter;
 }
 
-.weight1 {
+.regular {
     font-weight: normal;
 }
 
-.weight3 {
+.black {
     font-weight: bolder;
 }
 
-.select {
+.auto-select {
 	user-select: auto;
 }
 
@@ -90,4 +98,27 @@ img {
     border-radius: 0.35em;
 
     cursor: default;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    border-radius: 0.35em;
+
+    padding-top: 0.5em;
+    padding-bottom:0.5em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+
+    cursor: text;
+}
+
+textarea.dark {
+    color: rgb(240, 240, 240);
+    background-color: rgb(47, 47, 47);
+}
+
+textarea.light {
+    color: rgb(25, 25, 25);
+    background-color: rgb(240, 240, 240);
 }
