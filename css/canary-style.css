@@ -27,7 +27,7 @@ a {
     font-size: 1em;
 }
 
-button {
+button, input.button {
     font-family: "Inter", sans-serif;
     font-size: 1em;
     outline: none;
@@ -42,12 +42,12 @@ button {
     cursor: pointer;
 }
 
-button.light { 
+button.light, input.button.light { 
     color: rgb(25, 25, 25);
     background-color: rgb(240, 240, 240);
 }
 
-button.dark {
+button.dark, input.button.dark {
     color: rgb(240, 240, 240);
     background-color: rgb(47, 47, 47);
 }
