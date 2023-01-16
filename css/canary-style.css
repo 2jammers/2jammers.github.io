@@ -18,6 +18,10 @@ p.description {
     font-size: 1em;
 }
 
+p.heading {
+	font-size: 1.5em
+}
+
 p {
     font-size: 1em;
 }
@@ -80,7 +84,7 @@ button.dark, input.button.dark {
     cursor: none;
 }
 
-.no-decoration {
+.no-decor {
 	text-decoration: none;
 }
 
@@ -90,6 +94,10 @@ button.dark, input.button.dark {
 
 .pointer {
     cursor: pointer;
+}
+
+.text {
+	cursor: text;
 }
 
 img {
