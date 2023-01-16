@@ -20,9 +20,10 @@
     <br>
 
     <form name="HTMLTester">
-        <textarea class="dark" rows="20" cols="80" name="HTMLCode" style="font-family: monospace;"></textarea>
+        <textarea class="dark" rows="20" cols="80" name="HTMLCode" style="font-family: monospace;" spellcheck="false"></textarea>
         <br>
-        <input class="button dark" type="submit" value="Test Code" onclick="loadHTML(window.document.HTMLTester.HTMLCode.value)">
+        <br>
+        <input class="button dark" type="button" value="Test Code" onclick="loadHTML(window.document.HTMLTester.HTMLCode.value)">
     </form>
 </body>
 
