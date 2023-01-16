@@ -3,32 +3,46 @@ body {
     color: rgb(240, 240, 240);
     font-family: "Inter", sans-serif;
 
-    padding-top: 1em;
-    padding-bottom:1em;
+    padding-top: 2em;
+    padding-bottom:2em;
     padding-right: 4em;
     padding-left: 4em;
 }
 
-p.title {
+body.dark {
+    background-color: rgb(25, 25, 25);
+    color: rgb(240, 240, 240);
+}
+
+body.light {
+    background-color: rgb(240,240,240);
+    color: rgb(25, 25, 25);
+}
+
+p.title, label.title {
     font-size: 2.1875em;
 }
 
-p.description {
+p.description, label.description {
     color: rgb(104, 104, 104);
     font-size: 1em;
 }
 
-p.heading {
-	font-size: 1.5em
+p.heading, label.heading {
+font-size: 1.5em
 }
 
-p {
+p, label {
     font-size: 1em;
 }
 
 a {
 	color: rgb(240, 240, 240);
     font-size: 1em;
+}
+
+br {
+    user-select: none;
 }
 
 button, input.button {
@@ -46,14 +60,22 @@ button, input.button {
     cursor: pointer;
 }
 
-button.light, input.button.light { 
+button.light, input.button.light, div.light, textarea.light { 
     color: rgb(25, 25, 25);
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(222, 222, 222);
 }
 
-button.dark, input.button.dark {
+button.dark, input.button.dark, div.dark, textarea.dark {
     color: rgb(240, 240, 240);
     background-color: rgb(47, 47, 47);
+}
+
+.border.dark {
+    border-color: rgb(240, 240, 240);
+}
+
+.border.light {
+    border-color: rgb(47, 47, 47);
 }
 
 .bold {
@@ -100,6 +122,11 @@ button.dark, input.button.dark {
 	cursor: text;
 }
 
+.border {
+    border-style: solid;
+    border-radius: 0.35em;
+}
+
 img {
     outline: none;
     border: none;
@@ -121,12 +148,13 @@ textarea {
     cursor: text;
 }
 
-textarea.dark {
-    color: rgb(240, 240, 240);
-    background-color: rgb(47, 47, 47);
-}
+div {
+    border: none;
+    outline: none;
+    border-radius: 0.35em;
 
-textarea.light {
-    color: rgb(25, 25, 25);
-    background-color: rgb(240, 240, 240);
+    padding-top: 0.25em;
+    padding-bottom:0.25em;
+    padding-right: 1.25em;
+    padding-left: 1.25em;
 }
