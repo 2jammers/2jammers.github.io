@@ -19,10 +19,10 @@
     <p class="description no-select">Easily test your HTML in a new window</p>
     <br>
 
-    <form>
-        <textarea class="dark" rows="20" cols="80" name="html-code" style="font-family: monospace;"></textarea>
+    <form name="HTMLTester">
+        <textarea class="dark" rows="20" cols="80" name="HTMLCode" style="font-family: monospace;"></textarea>
         <br>
-        <input class="button dark" type="submit" value="Test Code">
+        <input class="button dark" type="submit" value="Test Code" onclick="loadHTML(window.document.HTMLTester.HTMLCode.value)">
     </form>
 </body>
 
