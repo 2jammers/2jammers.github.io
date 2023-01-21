@@ -32,6 +32,11 @@ p.heading, label.heading {
 font-size: 1.5em
 }
 
+::selection {
+            color: black;
+            background-color: rgb(128, 159, 218);
+}
+
 p, label {
     font-size: 1em;
 }
