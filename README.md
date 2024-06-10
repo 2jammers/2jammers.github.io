@@ -1,3 +1,3 @@
-# lolmansReturn - Main Site
+# 2jammers
 
-This website hosts the documentation to all canary products and more useful tools.
+me site
