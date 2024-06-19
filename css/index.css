@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 body {
-    background-image: url('/assets/bg.webp');
+    background-image: url('/assets/bg.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 3em;
     line-height: 150%;
     user-select: none;
